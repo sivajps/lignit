@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lignite</title>
+    <link rel="icon" href="S:\HTML\img\logo.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1>Lignite</h1>
+        <div class="navbarlinks">
+            <p class="navbarlink"><a href="index.html">home</a></p>
+            <p class="navbarlink"><a href="collection.html">collection</a></p>
+            <p class="navbarlink"><a href="contact.html">contact</a></p>
+        </div>
+        <div class="navbar-toggle" onclick="opennav()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <div class="sidenavbar">
+
+        <p style="text-align: right;" onclick="closenav()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+
+        <div class="side-navbarlinks">
+            <p class="side-navbarlink"><a href="index.html">home</a></p>
+            <p class="side-navbarlink"><a href="collection.html">collection</a></p>
+            <p class="side-navbarlink"><a href="contact.html">contact</a></p>
+        </div>
+    </div>
+
+    <div class="product-section">
+        <form class="product-search">
+            <input type="text" id="searchbar" placeholder="Search">
+            <i class="fa-solid fa-search"></i>
+        </form>
+
+        <div class="products" id="product">
+            <div class="product-box">
+                <img src="img\g9.jpg" alt="" width="200" height="200">
+                <p>1911</p>
+            </div>
+            <div class="product-box">
+                <img src="img\g2.jpg" alt="" width="200" height="200">
+                <p>Beretta</p>
+            </div>
+            <div class="product-box">
+                <img src="img\g7.jpg" alt="" width="200" height="200">
+                <p>M4A1</p>
+            </div>
+            <div class="product-box">
+                <img src="img\g8.jpg" alt="" width="200" height="200">
+                <p>UMP</p>
+            </div>
+            <div class="product-box">
+                <img src="img\g1.jpg" alt="" width="200" height="200">
+                <p>1911 Premium Edition</p>
+            </div>
+            <div class="product-box">
+                <img src="img\g4.jpg" alt="" width="200" height="200">
+                <p>2011</p>
+            </div>
+            <div class="product-box">
+                <img src="img\gun3.jpg" alt="" width="200" height="200">
+                <p>Glock-19</p>
+            </div>
+            <div class="product-box">
+                <img src="img\g5.jpg" alt="" width="200" height="200">
+                <p>2011</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footerbox1">
+                <h2>Lignite</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, cum quod. Neque eos explicabo rem
+                    repellat vero doloribus iure molestiae, dignissimos ad mollitia, nesciunt quod.</p>
+                <div class="footer-iconcontainer">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <p>@Lignite.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="collection.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,259 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: maroon;
+    align-items: center;
+
+}
+
+.navbarlinks {
+    display: flex;
+    column-gap: 10px;
+}
+
+.navbarlinks a {
+    text-decoration: none;
+    color: rgb(2, 11, 47);
+}
+
+.navbarlinks a:hover {
+    text-decoration: underline;
+    color: rgb(2, 11, 47);
+}
+
+.navbar-toggle {
+    display: none;
+}
+
+.sidenavbar {
+    background-color: rgb(2, 11, 47);
+    width: 25%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -35%;
+    color: bisque;
+    padding: 20px;
+    transition: 1s;
+}
+
+.side-navbarlink {
+    margin-bottom: 20px;
+}
+
+.side-navbarlinks a {
+    text-decoration: none;
+    color: beige;
+}
+
+.side-navbarlinks a:hover {
+    text-decoration: underline;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 50px;
+}
+
+.header-button {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border: "none";
+    cursor: pointer;
+    border: none;
+}
+
+.service{
+    padding: 20px;
+}
+.service-container1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service-container2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.service-container2 div{
+    background-color: #f2f4f7;;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.new-arrival{
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+    flex-wrap: wrap;
+}
+
+.new-arrival-container{
+    position: relative;
+    flex-basis: 20%;
+}
+.new-arrival button{
+    padding: 5px;
+    color: black;
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    border-radius: 5px;
+    border: none;
+}
+
+.news{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.news input{
+    padding: 10px;
+    width: 80vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: black solid 2px;
+}
+.news button{
+    background-color: black;
+    color: azure;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.footer{
+    margin-top: 20px;
+    background-color: rgb(2, 11, 47);
+    color: azure;
+    padding: 20px;
+}
+
+.product-section{
+    margin-top: 20px;
+}
+
+.product-search{
+    width: 80%;
+    border: solid black 2px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin:auto;
+}
+
+.product-search input{
+    border: none;
+    background-color: transparent;
+    width: 100%;
+}
+
+.product-search input:focus{
+    outline: none;
+}
+
+.products{
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product-box{
+    text-align: center;
+    flex-basis: 20%;
+
+}
+
+.product-box img{
+    border-radius: 10px;
+}
+
+.contact{
+    padding: 20px;
+    background-color: rgb(2, 11, 47);
+    margin: 20px;
+    border-radius: 10px;
+    color: azure;
+    width: 60%;
+    height: 400px;
+    display: inline-block;
+    margin-left: 18%;
+}
+.contactus textarea{
+    width: 100%;
+    height: 100px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding: 5px;
+}
+.id{
+    margin-top: 5px;
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 5px;
+}
+.contact{
+ justify-content: center;
+}
+.contactus p{
+    margin-top: 10px;
+}
+
+.header-img{
+    height: 100px;
+    width: 100px;
+}
+
+.contactus button{
+    margin-top: 20px;
+    background-color: rgb(12, 12, 253);
+    color: #f2f4f7;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width:600px) {
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbarlinks {
+        display: none;
+    }
+    .service-container1{
+        display: none;
+    }
+    .service-container2{
+        flex-direction: column;
+    }
+}
